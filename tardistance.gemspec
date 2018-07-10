@@ -8,11 +8,11 @@ Gem::Specification.new do |s|
   s.authors     = ["Tarash Agarwal"]
   s.email       = 'tarash.agarwal@gmail.com'
   s.files       = ["lib/tardistance.rb"]
-  s.homepage    ='https://github.com/tarashagarwal/tardistance.git'
-  s.license       = 'MIT'
-  s.metadata ={
+  s.homepage    = 'https://github.com/tarashagarwal/tardistance.git'
+  s.license     = 'MIT'
+  s.metadata    ={
     "authors_blog" => "https://tarashagarwal.github.io/",
     "levenshtein distance algorithm" => "https://en.wikipedia.org/wiki/Levenshtein_distance",
   }
-  s.extensions = %w[ext/skynet/extconf.rb]
+  s.extensions  = %w[ext/skynet/extconf.rb]
 end
