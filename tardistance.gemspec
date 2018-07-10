@@ -10,9 +10,10 @@ Gem::Specification.new do |s|
   s.files       = ["lib/tardistance.rb"]
   s.homepage    = 'https://github.com/tarashagarwal/tardistance.git'
   s.license     = 'MIT'
+  s.platform    = Gem::Platform::RUBY
   s.metadata    ={
     "authors_blog" => "https://tarashagarwal.github.io/",
     "levenshtein distance algorithm" => "https://en.wikipedia.org/wiki/Levenshtein_distance",
   }
-  s.extensions  = %w[ext/skynet/extconf.rb]
+  s.extensions  = %w[ext/tardistance/extconf.rb]
 end

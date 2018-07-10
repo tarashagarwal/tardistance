@@ -89,7 +89,7 @@ int findMin(int r,int s){
 	}
 }
 
-void Init_skynet()
+void Init_tardistance()
 {
   VALUE mod = rb_define_module("PercentSearch");
   rb_define_global_function("distance",distance,3);
