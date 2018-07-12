@@ -1,10 +1,10 @@
 
 Gem::Specification.new do |s|
   s.name        = 'tardistance'
-  s.version     = '1.0.0'
-  s.date        = '2018-06-24'
-  s.summary     = "A fast implemention to select stings based on levenshtein distance algorithm"
-  s.description = "A gem to select strings from a given array having a particualar percentage distance(levenshtein distance) from a given string. Primarily built for search suggestion can be used for other applications."
+  s.version     = '0.0.0'
+  s.date        = '2018-07-13'
+  s.summary     = "A fast method to filter strings"
+  s.description = "Filter strings on basis of percentage of changes to be made in the string in terms of levenshtein distance by string length"
   s.authors     = ["Tarash Agarwal"]
   s.email       = 'tarash.agarwal@gmail.com'
   s.files       = Dir.glob('lib/**/*.rb') + Dir.glob('ext/**/*.c')
