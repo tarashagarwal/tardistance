@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.description = "A gem to select strings from a given array having a particualar percentage distance(levenshtein distance) from a given string. Primarily built for search suggestion can be used for other applications."
   s.authors     = ["Tarash Agarwal"]
   s.email       = 'tarash.agarwal@gmail.com'
-  s.files       = ["lib/tardistance.rb"]
+  s.files       = Dir.glob('lib/**/*.rb') + Dir.glob('ext/**/*.c')
   s.homepage    = 'https://github.com/tarashagarwal/tardistance.git'
   s.license     = 'MIT'
   s.platform    = Gem::Platform::RUBY
@@ -15,5 +15,5 @@ Gem::Specification.new do |s|
     "authors_blog" => "https://tarashagarwal.github.io/",
     "levenshtein distance algorithm" => "https://en.wikipedia.org/wiki/Levenshtein_distance",
   }
-  s.extensions  = %w[ext/tardistance/extconf.rb]
+  s.extensions   = 'ext/tardistance/extconf.rb'
 end
